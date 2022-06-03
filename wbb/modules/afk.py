@@ -1,13 +1,13 @@
 
 import random, html
 
-from daishinyuu import dispatcher
-from daishinyuu.modules.disable import (
+from wbb import dispatcher
+from wbb.modules.disable import (
     DisableAbleCommandHandler,
     DisableAbleMessageHandler,
 )
-from daishinyuu.modules.sql import afk_sql as sql
-from daishinyuu.modules.users import get_user_id
+from wbb.modules.sql import afk_sql as sql
+from wbb.modules.users import get_user_id
 from telegram import MessageEntity, Update
 from telegram.error import BadRequest
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
