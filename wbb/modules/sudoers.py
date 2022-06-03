@@ -40,7 +40,7 @@ from wbb import (
 )
 from wbb.core.decorators.errors import capture_err
 from wbb.utils import formatter
-from wbb.utils.dbfunctions import (
+from wbb.dbfunctions import (
     add_gban_user,
     get_served_chats,
     is_gbanned_user,
