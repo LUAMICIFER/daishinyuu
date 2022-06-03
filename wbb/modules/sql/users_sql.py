@@ -1,7 +1,7 @@
 import threading
 
-from TGN import dispatcher
-from TGN.modules.sql import BASE, SESSION
+from wbb import dispatcher
+from wbb.modules.sql import BASE, SESSION
 from sqlalchemy import (
     Column,
     ForeignKey,
