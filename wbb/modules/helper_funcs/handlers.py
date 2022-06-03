@@ -1,6 +1,6 @@
-import TGN.modules.sql.blacklistusers_sql as sql
-from TGN import ALLOW_EXCL
-from TGN import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
+import wbb.modules.sql.blacklistusers_sql as sql
+from wbb import ALLOW_EXCL
+from wbb import DEV_USERS, DRAGONS, DEMONS, TIGERS, WOLVES
 
 from telegram import Update
 from telegram.ext import CommandHandler, MessageHandler, RegexHandler, Filters
