@@ -4,15 +4,15 @@ from random import randint
 from time import time
 
 import aiohttp
-from TGN import aiohttpsession 
+from wbb import aiohttpsession 
 from aiohttp import ClientSession
 
 from google_trans_new import google_translator
 from Python_ARQ import ARQ
 from search_engine_parser import GoogleSearch
 
-from TGN import BOT_ID, OWNER_ID, ARQ_API_URL, ARQ_API_KEY
-from TGN import pbot
+from wbb import BOT_ID, OWNER_ID, ARQ_API_URL, ARQ_API_KEY
+from wbb import pbot
 
 ARQ_API = "TPHZXP-EZRNGY-CQGJLY-XFAIEF-ARQ"
 ARQ_API_KEY = "TPHZXP-EZRNGY-CQGJLY-XFAIEF-ARQ"
