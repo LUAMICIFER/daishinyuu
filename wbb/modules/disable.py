@@ -2,9 +2,9 @@ import importlib
 from typing import Union
 
 from future.utils import string_types
-from TGN import dispatcher
-from TGN.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
-from TGN.modules.helper_funcs.misc import is_module_loaded
+from wbb import dispatcher
+from wbb.modules.helper_funcs.handlers import CMD_STARTERS, SpamChecker
+from wbb.modules.helper_funcs.misc import is_module_loaded
 from telegram import ParseMode, Update
 from telegram.ext import (
     CallbackContext,
