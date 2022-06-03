@@ -6,8 +6,8 @@ import random
 import requests
 from PIL import Image, ImageDraw, ImageFont
 
-from TGN import OWNER_ID, telethn as tbot
-from TGN.events import register
+from wbb import OWNER_ID, telethn as tbot
+from wbb.events import register
 
 LOGO_LINKS = [
     "https://te.legra.ph/file/4d0b3b52626f32de6cfa9.jpg"
