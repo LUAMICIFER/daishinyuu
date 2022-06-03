@@ -3,7 +3,7 @@ import threading
 
 from sqlalchemy import Boolean, Column, BigInteger, UnicodeText
 
-from TGN.modules.sql import BASE, SESSION
+from wbb.modules.sql import BASE, SESSION
 
 
 class AFK(BASE):
