@@ -1,6 +1,6 @@
 import threading
 
-from TGN.modules.sql import BASE, SESSION
+from wbb.modules.sql import BASE, SESSION
 from sqlalchemy import Column, String, UnicodeText
 
 
