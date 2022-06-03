@@ -155,7 +155,8 @@ dispatcher.add_handler(AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REGEX_HANDLER, AFK_GROUP)
 dispatcher.add_handler(NO_AFK_HANDLER, AFK_GROUP)
 dispatcher.add_handler(AFK_REPLY_HANDLER, AFK_REPLY_GROUP)
-
+__MODULE__ = "Afk"
+__HELP__ = "/afk if you are away"
 __mod_name__ = "Afk​"
 __command_list__ = ["afk"]
 __handlers__ = [
