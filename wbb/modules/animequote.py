@@ -4,9 +4,9 @@ import html
 import random
 import time
 
-from daishinyuu import dispatcher
-from daishinyuu.modules.disable import DisableAbleCommandHandler
-from daishinyuu.modules.helper_funcs.chat_status import (is_user_admin)
+from wbb import dispatcher
+from wbb.modules.disable import DisableAbleCommandHandler
+from wbb.modules.helper_funcs.chat_status import (is_user_admin)
 from telegram.ext import CallbackContext, CommandHandler, Filters, run_async, CallbackQueryHandler
 from telegram import ParseMode, Update, InlineKeyboardMarkup, InlineKeyboardButton, replymarkup, ChatPermissions
 from telegram.error import BadRequest
