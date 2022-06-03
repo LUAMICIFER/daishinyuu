@@ -6,7 +6,7 @@ from daishinyuu import BOT_USERNAME as bn
 from daishinyuu import pbot, arq
 from daishinyuu.utils.errors import capture_err
 from daishinyuu.utils.permissions import adminsOnly
-from daishinyuu.ex_plugins.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
+from daishinyuu.dbfunctions import is_nsfw_on, nsfw_off, nsfw_on
 from daishinyuu.utils.filter_groups import nsfw_detect_group
 
 __mod_name__ = "Anti-NSFW"
