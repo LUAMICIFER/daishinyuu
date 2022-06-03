@@ -1,6 +1,6 @@
 import requests
-from daishinyuu import dispatcher
-from daishinyuu.modules.disable import DisableAbleCommandHandler
+from wbb import dispatcher
+from wbb.modules.disable import DisableAbleCommandHandler
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
